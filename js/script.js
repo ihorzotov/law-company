@@ -1,3 +1,5 @@
+document.addEventListener("touchstart", function(){}, true);
+
 $(document).ready(function(){
    $('.personal-info__form .input-holder input , textarea').each(function() { if($(this).val().length > 0) $('.personal-info__form .input-holder label[for="' + $(this).attr('id') + '"]').hide();
     $(this).change(function() {
@@ -29,3 +31,12 @@ $(function(){
     }
   });
 });
+
+$('.callback-logo').click(function(){
+  $(this).parent().toggleClass('active');
+  $(this).addClass('active');
+    
+  setTimeout(function(){
+    $('.callback-logo').removeClass("active"); 
+  }, 500);
+})

@@ -10,6 +10,9 @@
   .footer-info__item a:hover {
     color: #0abab5;
   }
+  .callback-logo:hover {
+    background-color: rgba(10, 186, 181, 0.9);
+  }
 }
 
 @media (max-width: 1280px) {

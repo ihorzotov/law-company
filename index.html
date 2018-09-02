@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
   <header class="header" style="background-image: url('img/header-bg.jpg');">
@@ -111,6 +112,25 @@
         </div>
       </div>
     </div>
+    <div class="callback">
+      <div class="callback-logo">
+        <i class="fas fa-headset"></i>
+      </div>
+      <form id="gform" method="POST" class="personal-info__form form" data-email="example@email.net"
+          action="https://script.google.com/macros/s/AKfycby8_B1Toqc78AIIRqLS2TufLQji4BsklHfNVCa5/exec">
+          <p>Заказать обратный звонок</p>
+          <div class="personal-info__shadow">
+            <div class="input-holder">
+              <label for="phone-send">Телефон</label>
+              <input type="text" placeholder="" id="phone-send" class="form-text" name="phone" required>
+            </div>
+            <div id="thankyou_message">
+              <span>Мы свяжимся с вами в ближайшее время</span>
+            </div>
+          </div>
+          <input type="submit" class="law-btn" value="Перезвонить">
+      </form>
+    </div>
   </main>
   <footer class="footer">
     <div class="wrapper">
@@ -128,8 +148,8 @@
       </ul>
     </div>
   </footer>
-
   <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/form-submit.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
