@@ -275,7 +275,7 @@ p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::se
 .callback {
   position: fixed;
   right: 0;
-  bottom: 20%;
+  bottom: 10%;
 }
 
 .callback.active .personal-info__form {
