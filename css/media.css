@@ -1,0 +1,119 @@
+@media (min-width: 1025px) {
+  .law-btn:hover {
+    background-color: #0abab5;
+    color: #fff;
+  }
+  .contact-links a + a:hover {
+    background-color: #fff;
+    color: #848d95;
+  }
+  .footer-info__item a:hover {
+    color: #0abab5;
+  }
+}
+
+@media (max-width: 1280px) {
+  .wrapper {
+    padding: 0 15px;
+  }
+  .header-text h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .wrapper {
+    max-width: 960px;
+  }
+  .header-text h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 960px) {
+  .wrapper {
+    max-width: 720px;
+  }
+  .header-text h1 {
+    font-size: 35px;
+  }
+  figure {
+    height: 200px;
+  }
+  .main-skills__law {
+    width: 50%;
+    padding-left: 30px !important;
+    margin: 0 !important;
+  }
+  .main-skills__law:nth-child(2n+2) {
+    padding-left: 0 !important;
+  }
+  .main-skills__law:nth-child(1n+4) {
+    margin-top: 30px !important;
+  }
+  .main-about__text {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .main-about__img {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 719px) {
+  .wrapper {
+    max-width: 576px;
+  }
+  .header {
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+  }
+  .header-content__img {
+    width: 150px;
+    padding-top: 25px;
+  }
+  .header-content__list {
+    font-size: 18px;
+  }
+  .header-text {
+    margin-top: 80px;
+  }
+  .header-text br {
+    display: none;
+  }
+  .header-text h1 {
+    font-size: 28px;
+  }
+  .main-title h2 {
+    font-size: 30px;
+  }
+  figure + figure {
+    margin: 30px auto 0;
+  }
+  figure {
+    display: block;
+    height: 300px;
+    width: 50%;
+    margin: auto;
+  }
+  .footer-logo {
+    width: 150px;
+  }
+  .contacts-list__item {
+    width: 50%;
+  }
+  .contacts-list__item:nth-child(1n+3) {
+    margin-top: 30px !important;
+  }
+  .section-name h3 {
+    font-size: 30px;
+  }
+  .section-name p {
+    font-size: 20px;
+  }
+  .application {
+    margin-bottom: 30px;
+  }
+}
